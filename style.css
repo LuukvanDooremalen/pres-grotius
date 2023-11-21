@@ -206,7 +206,7 @@ p {
 
 .programma{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 50px;
   gap: 100px;
 }
