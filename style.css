@@ -273,6 +273,27 @@ gap: 10px;
   display: block;
 }
 
+.blokken{
+  display: none;
+  margin-top: 40px;
+}
+
+.active .blokken{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hidden img{
+  display: none;
+  border-radius: 1rem;
+  width: 100%;
+  margin-top: 20px;
+  border: 2px solid black;
+}
+
+.active .hidden img{
+  display: block;
+}
 .show p{
   margin-bottom: 10px;
 }
@@ -296,3 +317,17 @@ gap: 10px;
 .jaar:hover .more2 p::before {
   width: 100%;
 }
+/* .blok-cont{
+  display: flex;
+} */
+.blok-cont img{
+  border: none;
+  height: 70px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+/* #jaar1 .hidden{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+} */
